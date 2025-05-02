@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceBusinessLayer", "DanceBusinessLayer\DanceBusinessLayer.csproj", "{045C5D5E-7A8E-488F-A4A8-A14BB5F420F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceDataAccessLayer", "DanceDataAccessLayer\DanceDataAccessLayer.csproj", "{7C4FC7D0-CF84-42F4-856C-DA7040BF8786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceEntityLayer", "DanceEntityLayer\DanceEntityLayer.csproj", "{750AEC1D-E212-4725-B64E-C39934F69CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceDTOLayer", "DanceDTOLayer\DanceDTOLayer.csproj", "{04BDE8D8-6755-4741-90C8-3AD45396CEA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceWebApi", "DanceWebApi\DanceWebApi.csproj", "{42A79C9F-BD2D-4E06-BDF3-BFED63569008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceWebUI", "DanceWebUI\DanceWebUI.csproj", "{33798B18-235C-45CD-B7F5-C12F19C71D06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{045C5D5E-7A8E-488F-A4A8-A14BB5F420F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045C5D5E-7A8E-488F-A4A8-A14BB5F420F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045C5D5E-7A8E-488F-A4A8-A14BB5F420F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045C5D5E-7A8E-488F-A4A8-A14BB5F420F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4FC7D0-CF84-42F4-856C-DA7040BF8786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4FC7D0-CF84-42F4-856C-DA7040BF8786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4FC7D0-CF84-42F4-856C-DA7040BF8786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4FC7D0-CF84-42F4-856C-DA7040BF8786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750AEC1D-E212-4725-B64E-C39934F69CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750AEC1D-E212-4725-B64E-C39934F69CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750AEC1D-E212-4725-B64E-C39934F69CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750AEC1D-E212-4725-B64E-C39934F69CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BDE8D8-6755-4741-90C8-3AD45396CEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BDE8D8-6755-4741-90C8-3AD45396CEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BDE8D8-6755-4741-90C8-3AD45396CEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BDE8D8-6755-4741-90C8-3AD45396CEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A79C9F-BD2D-4E06-BDF3-BFED63569008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A79C9F-BD2D-4E06-BDF3-BFED63569008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A79C9F-BD2D-4E06-BDF3-BFED63569008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A79C9F-BD2D-4E06-BDF3-BFED63569008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33798B18-235C-45CD-B7F5-C12F19C71D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33798B18-235C-45CD-B7F5-C12F19C71D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33798B18-235C-45CD-B7F5-C12F19C71D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33798B18-235C-45CD-B7F5-C12F19C71D06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {437CB2D8-E0F4-45BB-B7CE-DCA5102FED98}
+	EndGlobalSection
+EndGlobal

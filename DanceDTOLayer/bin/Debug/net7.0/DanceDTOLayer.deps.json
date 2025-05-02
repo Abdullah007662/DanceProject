@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DanceDTOLayer/1.0.0": {
+        "dependencies": {
+          "DanceEntityLayer": "1.0.0"
+        },
+        "runtime": {
+          "DanceDTOLayer.dll": {}
+        }
+      },
+      "DanceEntityLayer/1.0.0": {
+        "runtime": {
+          "DanceEntityLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DanceDTOLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DanceEntityLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

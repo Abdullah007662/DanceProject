@@ -1,0 +1,15 @@
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\bin\Debug\net7.0\DanceDTOLayer.deps.json
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\bin\Debug\net7.0\DanceDTOLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\bin\Debug\net7.0\DanceDTOLayer.pdb
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTOLayer.AssemblyInfoInputs.cache
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTOLayer.AssemblyInfo.cs
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTOLayer.csproj.CoreCompileInputs.cache
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTOLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\refint\DanceDTOLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTOLayer.pdb
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\ref\DanceDTOLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\bin\Debug\net7.0\DanceEntityLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\bin\Debug\net7.0\DanceEntityLayer.pdb
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTOLayer.csproj.AssemblyReference.cache
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTO.891F0548.Up2Date

@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "DanceWebApi.Controllers.AboutsController",
+    "Method": "AboutList",
+    "RelativePath": "api/Abouts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DanceWebApi.Controllers.AboutsController",
+    "Method": "CreateAbout",
+    "RelativePath": "api/Abouts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAboutDto",
+        "Type": "DanceDTOLayer.WebApiDTO.AboutDTO.CreateAboutDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DanceWebApi.Controllers.AboutsController",
+    "Method": "UpdateAbout",
+    "RelativePath": "api/Abouts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateAboutDTO",
+        "Type": "DanceDTOLayer.WebApiDTO.AboutDTO.UpdateAboutDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DanceWebApi.Controllers.AboutsController",
+    "Method": "DeleteAbout",
+    "RelativePath": "api/Abouts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DanceWebApi.Controllers.AboutsController",
+    "Method": "GetById",
+    "RelativePath": "api/Abouts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

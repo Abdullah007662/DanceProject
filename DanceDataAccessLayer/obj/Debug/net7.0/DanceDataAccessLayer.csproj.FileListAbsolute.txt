@@ -1,0 +1,17 @@
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\bin\Debug\net7.0\DanceDataAccessLayer.deps.json
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\bin\Debug\net7.0\DanceDataAccessLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\bin\Debug\net7.0\DanceDataAccessLayer.pdb
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.AssemblyInfo.cs
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\refint\DanceDataAccessLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.pdb
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\ref\DanceDataAccessLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\bin\Debug\net7.0\DanceDataAccessLayer.runtimeconfig.json
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\bin\Debug\net7.0\DanceEntityLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\bin\Debug\net7.0\DanceEntityLayer.pdb
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDat.FA8833C6.Up2Date
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.genruntimeconfig.cache

@@ -1,0 +1,1469 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DanceWebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DanceWebUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\about.html",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\client.html",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\client.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\contact.html",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\default-skin.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\meanmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\slick.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\css\\style.css",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\banner-bg.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\banner-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\banner-img.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\banner-img.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\call-icon-1.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\call-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\call-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\call-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\client-bg.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\client-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\client-img.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\client-img.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\customer-img-2.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\customer-img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\customer-img.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\customer-img.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\fb-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\fb-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\img-1.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\img-2.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\img-3.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\instagram-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\instagram-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\linkedin-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\linkedin-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\mail-icon-1.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\mail-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\mail-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\mail-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\map-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\map-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\quick-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\quick-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\services-img.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\services-img.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\twitter-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\twitter-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\images\\user-icon.png",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\images\\user-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\index.html",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\modernizer.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\js\\slider-setting.js",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\js\\slider-setting.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\Profusion-1.0.0\\services.html",
+      "PackagePath": "staticwebassets\\Profusion-1.0.0\\services.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\accordion.html",
+      "PackagePath": "staticwebassets\\material_able-main\\accordion.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\animate.css\\css\\animate.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\animate.css\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\chartist\\chartist.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\chartist\\chartist.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\component.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\component.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\font-awesome-n.min.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\font-awesome-n.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\ionicons.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\ionicons.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\linearicons.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\linearicons.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\morris.js\\css\\morris.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\morris.js\\css\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\CAW.TTF",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\CAW.TTF"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\SEGOEUI.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\SEGOEUI.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\SEGOEUIB.TTF",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\SEGOEUIB.TTF"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\SEGOEUIZ.TTF",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\SEGOEUIZ.TTF"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\feather\\css\\feather.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\feather\\css\\feather.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\feather\\fonts\\feather.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\feather\\fonts\\feather.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\feather\\fonts\\feather.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\feather\\fonts\\feather.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\feather\\fonts\\feather.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\feather\\fonts\\feather.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\feather\\fonts\\feather.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\feather\\fonts\\feather.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\icofont\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\icofont\\css\\icofont.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\icofont\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\icofont\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\icofont\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\icofont\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\icofont\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\icofont\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\ionicons.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\ionicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\ionicons.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\ionicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\ionicons.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\ionicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\segoeuii.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\segoeuii.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\icon\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\icon\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\Thumbs.db",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\auth\\Logo-small-bottom.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\auth\\Logo-small-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\auth\\Thumbs.db",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\auth\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\auth\\logo-dark.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\auth\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\auth\\logo.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\auth\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\browser\\chrome.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\browser\\chrome.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\browser\\firefox.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\browser\\firefox.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\browser\\ie.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\browser\\ie.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\browser\\opera.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\browser\\opera.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\browser\\safari.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\browser\\safari.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\logo-blue.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\logo-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\mega-menu\\01.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\mega-menu\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\mega-menu\\02.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\mega-menu\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\mega-menu\\03.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\mega-menu\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\select-arrow.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\select-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\user-bg.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\user-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\AUSTRALIA.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\AUSTRALIA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\BRAZIL.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\BRAZIL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\DIGITALPEN.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\DIGITALPEN.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\GERMANY.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\GERMANY.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\IPAD.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\IPAD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\PHONE1.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\PHONE1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\PHONE2.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\PHONE2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\PHONE3.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\PHONE3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\PHONE4.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\PHONE4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\TABLET.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\TABLET.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\UK.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\UK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\USA.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\USA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\prod1.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\prod1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\prod2.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\prod2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\prod3.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\prod3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\prod4.jpg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\prod4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\wather2bottom.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\wather2bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\wather2m.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\wather2m.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\wather2star1.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\wather2star1.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\wather2star2.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\wather2star2.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\watherbottom.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\watherbottom.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\wathernature.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\wathernature.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\watherstar1.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\watherstar1.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\watherstar2.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\watherstar2.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\wsm-3-star-1.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\wsm-3-star-1.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\images\\widget\\wsm-3-star-2.png",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\images\\widget\\wsm-3-star-2.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\SmoothScroll.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\SmoothScroll.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\animation.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\animation.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\bootstrap-growl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\classie.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\classie.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\color-json-common-page.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\color-json-common-page.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\common-pages.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\common-pages.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\common-pages.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\common-pages.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\counter.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\counter.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\float\\curvedLines.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\float\\curvedLines.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\float\\jquery.flot.categories.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\float\\jquery.flot.categories.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\float\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\float\\jquery.flot.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\float\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\float\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\float\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\float\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\jquery.quicksearch.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\jquery.quicksearch.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\modal.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\modalEffects.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\modalEffects.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\modernizr\\css-scrollbars.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\modernizr\\css-scrollbars.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\modernizr\\modernizr.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\modernizr\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\morris.js\\morris.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\morris.js\\morris.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\owl-custom.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\owl-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\pcoded.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\popper.js\\popper.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\popper.js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\rating.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\rating.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\script.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\script.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\swiper-custom.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\swiper-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\horizontal-layout.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\horizontal-layout.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\menu\\box-layout.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\menu\\box-layout.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\menu\\menu-compact.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\menu\\menu-compact.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\menu\\menu-header-fixed.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\menu\\menu-header-fixed.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\menu\\menu-hori-fixed.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\menu\\menu-hori-fixed.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\menu\\menu-rtl.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\menu\\menu-rtl.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\menu\\menu-sidebar-fixed.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\menu\\menu-sidebar-fixed.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\menu\\menu-static.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\menu\\menu-static.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\vertical-layout.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\vertical-layout.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\js\\vertical\\vertical-layout.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\js\\vertical\\vertical-layout.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\accordion\\accordion.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\accordion\\accordion.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\accordion\\accordion.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\accordion\\accordion.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\chart\\morris\\morris-custom-chart.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\chart\\morris\\morris-custom-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\amchart\\css\\amchart.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\amchart\\css\\amchart.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\amchart\\css\\export.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\amchart\\css\\export.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\export.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\export.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\light.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\light.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\serial.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\amchart\\js\\serial.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\custom-dashboard.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\custom-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\dashboard\\custom-dashboard.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\dashboard\\custom-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\google-maps\\gmaps.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\google-maps\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\google-maps\\google-maps.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\google-maps\\google-maps.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\icon-modal.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\icon-modal.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\notification\\notification.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\notification\\notification.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\notification\\notification.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\notification\\notification.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\todo\\todo.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\todo\\todo.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\waves\\css\\waves.min.css",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\waves\\css\\waves.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\waves\\js\\waves.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\waves\\js\\waves.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\amcharts.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\amcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\amcharts.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\amcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\ammap.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\ammap.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\ammap.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\ammap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\continentsLow.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\continentsLow.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\continentsLow.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\continentsLow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\export.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\export.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\gauge.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\gauge.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\gauge.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\gauge.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\images\\dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\images\\dragIconRoundBig.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\images\\lens.svg",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\images\\lens.svg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\light.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\light.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\light.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\light.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\pie.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\pie.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\pie.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\pie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\serial.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\serial.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\serial.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\serial.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\usaLow.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\usaLow.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\worldLow.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\worldLow.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\amchart\\worldLow.min.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\amchart\\worldLow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\assets\\pages\\widget\\excanvas.js",
+      "PackagePath": "staticwebassets\\material_able-main\\assets\\pages\\widget\\excanvas.js"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\auth-normal-sign-in.html",
+      "PackagePath": "staticwebassets\\material_able-main\\auth-normal-sign-in.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\auth-sign-up.html",
+      "PackagePath": "staticwebassets\\material_able-main\\auth-sign-up.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\breadcrumb.html",
+      "PackagePath": "staticwebassets\\material_able-main\\breadcrumb.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\bs-basic-table.html",
+      "PackagePath": "staticwebassets\\material_able-main\\bs-basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\button.html",
+      "PackagePath": "staticwebassets\\material_able-main\\button.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\chart-morris.html",
+      "PackagePath": "staticwebassets\\material_able-main\\chart-morris.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\color.html",
+      "PackagePath": "staticwebassets\\material_able-main\\color.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\form-elements-component.html",
+      "PackagePath": "staticwebassets\\material_able-main\\form-elements-component.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\index.html",
+      "PackagePath": "staticwebassets\\material_able-main\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\label-badge.html",
+      "PackagePath": "staticwebassets\\material_able-main\\label-badge.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\map-google.html",
+      "PackagePath": "staticwebassets\\material_able-main\\map-google.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\notification.html",
+      "PackagePath": "staticwebassets\\material_able-main\\notification.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\sample-page.html",
+      "PackagePath": "staticwebassets\\material_able-main\\sample-page.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\tabs.html",
+      "PackagePath": "staticwebassets\\material_able-main\\tabs.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\tooltip.html",
+      "PackagePath": "staticwebassets\\material_able-main\\tooltip.html"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\wwwroot\\material_able-main\\typography.html",
+      "PackagePath": "staticwebassets\\material_able-main\\typography.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DanceWebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DanceWebUI.props",
+      "PackagePath": "build\\DanceWebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DanceWebUI.props",
+      "PackagePath": "buildMultiTargeting\\DanceWebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DanceWebUI.props",
+      "PackagePath": "buildTransitive\\DanceWebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
