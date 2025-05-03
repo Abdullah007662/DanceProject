@@ -23,7 +23,7 @@ namespace DanceWebApi.Mapping
 			#region Contact
 			CreateMap<Contact, CreateContactDTO>().ReverseMap();
 			CreateMap<Contact, UpdateContactDTO>().ReverseMap();
-			CreateMap<Contact, ResultAboutDTO>().ReverseMap();
+			CreateMap<Contact, ResultContactDTO>().ReverseMap();
 			CreateMap<Contact, GetByIdContactDTO>().ReverseMap();
 			#endregion
 

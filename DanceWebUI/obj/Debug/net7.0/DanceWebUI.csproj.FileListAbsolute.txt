@@ -65,3 +65,4 @@ C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\obj\Debug\net7.0\DanceWebUI.
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\obj\Debug\net7.0\DanceWebUI.csproj.Up2Date
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\obj\Debug\net7.0\DanceWebUI.sourcelink.json

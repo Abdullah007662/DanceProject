@@ -17,6 +17,29 @@ namespace DanceBusinessLayer.Conteiner
 		{
 			Services.AddScoped<IAboutDal, EfAboutDal>();
 			Services.AddScoped<IAboutService, AboutManager>();
+
+
+			Services.AddScoped<IContactDal, EfContactDal>();
+			Services.AddScoped<IContactService, ContactManager>();
+
+
+
+			Services.AddScoped<IGradeDal, EfGradeDal>();
+			Services.AddScoped<IGradeService, GradeManager>();
+
+
+			Services.AddScoped<ILocationDal, EfLocationDal>();
+			Services.AddScoped<ILocationService, LocationManager>();
+
+
+			Services.AddScoped<IPriceDal, EfPriceDal>();
+			Services.AddScoped<IPriceService, PriceManager>();
+
+
+
+			Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
+			Services.AddScoped<ITestimonialService, TestimonialManager>();
+
 		}
 	}
 }

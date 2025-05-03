@@ -13,3 +13,4 @@ C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\bin\Debug\net7.0\DanceEnt
 C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\bin\Debug\net7.0\DanceEntityLayer.pdb
 C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTOLayer.csproj.AssemblyReference.cache
 C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTO.891F0548.Up2Date
+C:\Users\kcdmi\source\repos\DanceProject\DanceDTOLayer\obj\Debug\net7.0\DanceDTOLayer.sourcelink.json

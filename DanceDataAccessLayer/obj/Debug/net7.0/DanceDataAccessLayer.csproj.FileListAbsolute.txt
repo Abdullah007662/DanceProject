@@ -15,3 +15,4 @@ C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\bin\Debug\net7.0\D
 C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.csproj.AssemblyReference.cache
 C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDat.FA8833C6.Up2Date
 C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.genruntimeconfig.cache
+C:\Users\kcdmi\source\repos\DanceProject\DanceDataAccessLayer\obj\Debug\net7.0\DanceDataAccessLayer.sourcelink.json

@@ -15,3 +15,4 @@ C:\Users\kcdmi\source\repos\DanceProject\DanceBusinessLayer\bin\Debug\net7.0\Dan
 C:\Users\kcdmi\source\repos\DanceProject\DanceBusinessLayer\bin\Debug\net7.0\DanceEntityLayer.pdb
 C:\Users\kcdmi\source\repos\DanceProject\DanceBusinessLayer\obj\Debug\net7.0\DanceBusinessLayer.csproj.AssemblyReference.cache
 C:\Users\kcdmi\source\repos\DanceProject\DanceBusinessLayer\obj\Debug\net7.0\DanceBus.816F47E3.Up2Date
+C:\Users\kcdmi\source\repos\DanceProject\DanceBusinessLayer\obj\Debug\net7.0\DanceBusinessLayer.sourcelink.json

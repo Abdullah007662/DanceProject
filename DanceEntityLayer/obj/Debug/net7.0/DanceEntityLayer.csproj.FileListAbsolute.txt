@@ -9,3 +9,4 @@ C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\Dance
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\refint\DanceEntityLayer.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.pdb
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\ref\DanceEntityLayer.dll
+C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.sourcelink.json
