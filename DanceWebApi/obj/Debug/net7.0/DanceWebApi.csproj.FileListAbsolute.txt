@@ -74,3 +74,4 @@ C:\Users\kcdmi\source\repos\DanceProject\DanceWebApi\bin\Debug\net7.0\System.Cod
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebApi\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebApi\obj\Debug\net7.0\DanceWebApi.sourcelink.json
+C:\Users\kcdmi\source\repos\DanceProject\DanceWebApi\bin\Debug\net7.0\DanceWebApi.staticwebassets.runtime.json

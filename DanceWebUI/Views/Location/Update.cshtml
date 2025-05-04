@@ -1,0 +1,43 @@
+﻿@model UpdateLocationDTO
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+
+<div class="testimonial-update-container">
+    <div class="testimonial-card">
+        <div class="testimonial-card-header">
+            <h4>Konum Ekleme Sayfası</h4>
+        </div>
+        <div class="testimonial-card-body">
+            <form method="post">
+                <input type="hidden" asp-for="LocationID" />
+                <div class="form-group">
+                    <label for="GoogleMapLink">Google Link</label>
+                    <input type="text" asp-for="GoogleMapLink" class="form-control" placeholder="Google Linkini girin">
+                </div>
+
+                <div class="form-group">
+                    <label for="iFrame">İFrame</label>
+                    <input type="text" asp-for="iFrame" class="form-control" placeholder="İFrame Kodunu girin">
+                </div>
+                <div class="form-group">
+                    <label for="PhoneNumber">Telefon Numarası</label>
+                    <input type="text" asp-for="PhoneNumber" class="form-control" placeholder="Telefon Numarası girin">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="text" asp-for="Email" class="form-control" placeholder="Email girin">
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-update">
+                        <i class="fas fa-save"></i> Kaydet
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

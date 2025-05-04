@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\wwwroot\\TestimonialImages\\20250503-02c79041-7de4-479f-97e0-180df6139c00.webp",
+      "PackagePath": "staticwebassets\\TestimonialImages\\20250503-02c79041-7de4-479f-97e0-180df6139c00.webp"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\wwwroot\\TestimonialImages\\20250503-0d04434d-daa0-4e0c-9a96-7fefa94b02e9.png",
+      "PackagePath": "staticwebassets\\TestimonialImages\\20250503-0d04434d-daa0-4e0c-9a96-7fefa94b02e9.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\wwwroot\\TestimonialImages\\20250503-2fe0d17a-6ba3-48d7-9b16-2ee1ec20553a.jpg",
+      "PackagePath": "staticwebassets\\TestimonialImages\\20250503-2fe0d17a-6ba3-48d7-9b16-2ee1ec20553a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\wwwroot\\TestimonialImages\\20250503-77feaf81-1639-438b-b92c-d183e42c3327.jpg",
+      "PackagePath": "staticwebassets\\TestimonialImages\\20250503-77feaf81-1639-438b-b92c-d183e42c3327.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\wwwroot\\TestimonialImages\\20250503-ac6b3276-f8bc-4d27-9e82-fa4b949557ab.png",
+      "PackagePath": "staticwebassets\\TestimonialImages\\20250503-ac6b3276-f8bc-4d27-9e82-fa4b949557ab.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\wwwroot\\TestimonialImages\\20250503-b6c48e48-b8eb-417c-bf9b-e4097af82a22.jpg",
+      "PackagePath": "staticwebassets\\TestimonialImages\\20250503-b6c48e48-b8eb-417c-bf9b-e4097af82a22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\wwwroot\\TestimonialImages\\20250503-d189d092-4189-4ec1-85a1-05050f2d5c5d.png",
+      "PackagePath": "staticwebassets\\TestimonialImages\\20250503-d189d092-4189-4ec1-85a1-05050f2d5c5d.png"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\wwwroot\\TestimonialImages\\20250503-d8869e92-1fe0-4963-87c7-0d9af38d9463.jpg",
+      "PackagePath": "staticwebassets\\TestimonialImages\\20250503-d8869e92-1fe0-4963-87c7-0d9af38d9463.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\wwwroot\\TestimonialImages\\20250503-e3d0fad5-70ee-4eb2-b0fa-3583610be74d.jpg",
+      "PackagePath": "staticwebassets\\TestimonialImages\\20250503-e3d0fad5-70ee-4eb2-b0fa-3583610be74d.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DanceWebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DanceWebApi.props",
+      "PackagePath": "build\\DanceWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DanceWebApi.props",
+      "PackagePath": "buildMultiTargeting\\DanceWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DanceWebApi.props",
+      "PackagePath": "buildTransitive\\DanceWebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

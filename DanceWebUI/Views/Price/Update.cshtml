@@ -1,0 +1,42 @@
+﻿@model UpdatePriceDTO
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+
+
+<div class="testimonial-update-container">
+    <div class="testimonial-card">
+        <div class="testimonial-card-header">
+            <h4>Fiyat Güncelleme Sayfası</h4>
+        </div>
+        <div class="testimonial-card-body">
+            <form method="post">
+                <input type="hidden" asp-for="PriceID" />
+                <div class="form-group">
+                    <label for="Title">Başlık</label>
+                    <input type="text" asp-for="Title" class="form-control" placeholder="Adı ve Soyadı girin">
+                </div>
+
+                <div class="form-group">
+                    <label for="Fiyat">Fiyat</label>
+                    <input type="text" asp-for="Fiyat" class="form-control" placeholder="Fiyat girin">
+                </div>
+                <div class="form-group">
+                    <label for="Description">Açıklama</label>
+                    <textarea asp-for="Description" class="form-control" rows="4" placeholder="Açıklama girin"></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-update">
+                        <i class="fas fa-save"></i> Kaydet
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
