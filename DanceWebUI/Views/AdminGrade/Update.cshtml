@@ -1,0 +1,51 @@
+﻿@model UpdateGradeDTO
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+<div class="testimonial-update-container">
+    <div class="testimonial-card">
+        <div class="testimonial-card-header">
+            <h4>Sınıf Güncelleme Sayfası</h4>
+        </div>
+        <div class="testimonial-card-body">
+            <form method="post">
+                <input type="hidden" asp-for="GradeID" />
+
+                <div class="form-group">
+                    <label for="Title">Başlık</label>
+                    <input type="text" asp-for="Title" class="form-control" placeholder="Başlığı Giriniz">
+                </div>
+
+                <div class="form-group">
+                    <label for="SmallTitle">Alt Başlık</label>
+                    <input type="text" asp-for="SmallTitle" class="form-control" placeholder="Alt Başlığı Giriniz">
+                </div>
+                <div class="form-group">
+                    <label>Mevcut Görsel</label>
+                    <div class="image-upload-container">
+                        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                        {
+                            <div class="current-image mb-2">
+                                <img src="@Model.ImageUrl" alt="Mevcut Görsel" class="preview-image rounded" style="max-height: 150px;" />
+                                <p class="image-caption mt-2 text-muted"><strong>Görsel Yolu:</strong> @Model.ImageUrl</p>
+                            </div>
+                        }
+                        else
+                        {
+                            <p class="text-muted">Görsel bulunamadı.</p>
+                        }
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-update">
+                        <i class="fas fa-save"></i> Kaydet
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

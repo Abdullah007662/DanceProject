@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DanceDTOLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+459937b59bc2b670ea6d12cf54130ab2f03ac505")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ddda237483283b0f57248d1af005a8212e6aea9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DanceDTOLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DanceDTOLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

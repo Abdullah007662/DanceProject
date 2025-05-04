@@ -1,0 +1,139 @@
+﻿@model List<ResultTestimonialDTO>
+<div class="client_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="client_title">Testimonial</h1>
+            </div>
+        </div>
+        <div id="custom_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                @foreach (var item in Model)
+                {
+                    <div class="carousel-item @if(Model.IndexOf(item) == 0) { <text>active</text> }">
+                        <div class="client_section_2">
+                            <div class="client_main d-flex">
+                                <div class="client_left">
+                                    <div class="client_img"><img src="@item.ImageUrl" alt="Client Image"></div>
+                                </div>
+                                <div class="client_right">
+                                    <h3 class="name_text">@item.NameSurname <span style="float: right;"><img src="~/Profusion-1.0.0/images/quick-icon.png" alt="Quick Icon"></span></h3>
+                                    <p class="dolor_text">@item.Description</p>
+                                    <p class="lorem_text">@item.Description</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#custom_slider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Add the necessary CSS -->
+<style>
+    .client_section {
+        padding: 60px 0;
+    }
+
+    .client_title {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .client_main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+
+    .client_left {
+        flex: 1;
+        padding-right: 15px;
+    }
+
+    .client_img img {
+        width: 100%;
+        border-radius: 8px;
+        max-width: 150px;
+    }
+
+    .client_right {
+        flex: 2;
+    }
+
+    .name_text {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .dolor_text {
+        font-size: 16px;
+        color: #666;
+        margin-top: 10px;
+    }
+
+    .lorem_text {
+        font-size: 14px;
+        color: #777;
+        margin-top: 10px;
+    }
+
+    .carousel-inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .carousel-item {
+        flex: 1 1 30%;
+        padding: 10px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: #000;
+    }
+
+    @@media (max-width: 768px) {
+        .carousel-item {
+            flex: 1 1 100%;
+        }
+
+        .client_main {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .client_left {
+            margin-bottom: 20px;
+        }
+
+        .client_img img {
+            width: 100px;
+        }
+    }
+</style>

@@ -388,24 +388,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "NameSurname",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Title",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Description",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "image",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
+        "Name": "dTO",
+        "Type": "DanceDTOLayer.WebApiDTO.TestimonialDTO.CreateTestimonialDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -419,34 +404,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "TestimonialID",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "NameSurname",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Title",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Description",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "ImageUrl",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "image",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
+        "Name": "dTO",
+        "Type": "DanceDTOLayer.WebApiDTO.TestimonialDTO.UpdateTestimonialDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

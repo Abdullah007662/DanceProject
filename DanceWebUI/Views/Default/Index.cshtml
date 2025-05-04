@@ -1,344 +1,395 @@
-﻿@{
+﻿@model CreateContactDTO
+@{
     Layout = null;
 }
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dance Admin Paneli</title>
-    <link rel="stylesheet" href="~/MaterialDash-Admin-1.0.0/template/assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="~/MaterialDash-Admin-1.0.0/template/assets/vendors/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="~/MaterialDash-Admin-1.0.0/template/assets/css/demo/style.css">
-    <link rel="shortcut icon" href="~/MaterialDash-Admin-1.0.0/template/assets/images/favicon.png" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+        }
+
+        .contact_section {
+            padding: 80px 0;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .contact_taital {
+            color: #2d3748;
+            font-size: 42px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+            .contact_taital:after {
+                content: "";
+                display: block;
+                width: 80px;
+                height: 4px;
+                background: #4f46e5;
+                margin: 15px auto 0;
+                border-radius: 2px;
+            }
+
+        .contact_main {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+            padding: 40px;
+            transition: transform 0.3s ease;
+        }
+
+            .contact_main:hover {
+                transform: translateY(-5px);
+            }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 16px 20px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+            background-color: #f8fafc;
+            transition: all 0.3s ease;
+        }
+
+            .form-control:focus {
+                outline: none;
+                border-color: #4f46e5;
+                box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+                background-color: #fff;
+            }
+
+            .form-control::placeholder {
+                color: #94a3b8;
+            }
+
+        textarea.form-control {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            display: inline-block;
+            background-color: #4f46e5;
+            color: white;
+            padding: 14px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+        }
+
+            .submit-btn:hover {
+                background-color: #4338ca;
+                transform: translateY(-2px);
+                box-shadow: 0 6px 15px rgba(79, 70, 229, 0.4);
+            }
+
+            .submit-btn:active {
+                transform: translateY(1px);
+            }
+
+        @@media (max-width: 768px) {
+            .contact_taital {
+                font-size: 32px;
+            }
+
+            .contact_main {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.3/sweetalert2.min.css">
+    @await Component.InvokeAsync("_DefaultHeadPartials")
 </head>
 <body>
-    <script src="~/MaterialDash-Admin-1.0.0/template/assets/js/preloader.js"></script>
-    <div class="body-wrapper">
-        <aside class="mdc-drawer mdc-drawer--dismissible mdc-drawer--open">
-            <div class="mdc-drawer__header">
-                <a href="../../index.html" class="brand-logo">
-                    <img src="~/MaterialDash-Admin-1.0.0/template/assets/images/logo.svg" alt="logo">
-                </a>
-            </div>
-            <br /><br />
-            <div class="mdc-drawer__content">
-                <div class="mdc-list-group">
-                    <nav class="mdc-list mdc-drawer-menu">
-                        <div class="mdc-list-item mdc-drawer-item">
-                            <a class="mdc-drawer-link" href="../../index.html">
-                                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">home</i>
-                                Dashboard
-                            </a>
-                        </div>
-                        <div class="mdc-list-item mdc-drawer-item">
-                            <a class="mdc-drawer-link" href="../../pages/forms/basic-forms.html">
-                                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
-                                Forms
-                            </a>
-                        </div>
-                        <div class="mdc-list-item mdc-drawer-item">
-                            <a class="mdc-expansion-panel-link" href="#" data-toggle="expansionPanel" data-target="ui-sub-menu">
-                                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">dashboard</i>
-                                UI Features
-                                <i class="mdc-drawer-arrow material-icons">chevron_right</i>
-                            </a>
-                            <div class="mdc-expansion-panel" id="ui-sub-menu">
-                                <nav class="mdc-list mdc-drawer-submenu">
-                                    <div class="mdc-list-item mdc-drawer-item">
-                                        <a class="mdc-drawer-link" href="../../pages/ui-features/buttons.html">
-                                            Buttons
-                                        </a>
-                                    </div>
-                                    <div class="mdc-list-item mdc-drawer-item">
-                                        <a class="mdc-drawer-link" href="../../pages/ui-features/typography.html">
-                                            Typography
-                                        </a>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="mdc-list-item mdc-drawer-item">
-                            <a class="mdc-drawer-link" href="../../pages/tables/basic-tables.html">
-                                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">grid_on</i>
-                                Tables
-                            </a>
-                        </div>
-                        <div class="mdc-list-item mdc-drawer-item">
-                            <a class="mdc-drawer-link" href="../../pages/charts/chartjs.html">
-                                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">pie_chart_outlined</i>
-                                Charts
-                            </a>
-                        </div>
-                        <div class="mdc-list-item mdc-drawer-item">
-                            <a class="mdc-expansion-panel-link" href="#" data-toggle="expansionPanel" data-target="sample-page-submenu">
-                                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">pages</i>
-                                Sample Pages
-                                <i class="mdc-drawer-arrow material-icons">chevron_right</i>
-                            </a>
-                            <div class="mdc-expansion-panel" id="sample-page-submenu">
-                                <nav class="mdc-list mdc-drawer-submenu">
-                                    <div class="mdc-list-item mdc-drawer-item">
-                                        <a class="mdc-drawer-link" href="../../pages/samples/blank-page.html">
-                                            Blank Page
-                                        </a>
-                                    </div>
-                                    <div class="mdc-list-item mdc-drawer-item">
-                                        <a class="mdc-drawer-link" href="../../pages/samples/403.html">
-                                            403
-                                        </a>
-                                    </div>
-                                    <div class="mdc-list-item mdc-drawer-item">
-                                        <a class="mdc-drawer-link" href="../../pages/samples/404.html">
-                                            404
-                                        </a>
-                                    </div>
-                                    <div class="mdc-list-item mdc-drawer-item">
-                                        <a class="mdc-drawer-link" href="../../pages/samples/500.html">
-                                            500
-                                        </a>
-                                    </div>
-                                    <div class="mdc-list-item mdc-drawer-item">
-                                        <a class="mdc-drawer-link" href="../../pages/samples/505.html">
-                                            505
-                                        </a>
-                                    </div>
-                                    <div class="mdc-list-item mdc-drawer-item">
-                                        <a class="mdc-drawer-link" href="../../pages/samples/login.html">
-                                            Login
-                                        </a>
-                                    </div>
-                                    <div class="mdc-list-item mdc-drawer-item">
-                                        <a class="mdc-drawer-link" href="../../pages/samples/register.html">
-                                            Register
-                                        </a>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="mdc-list-item mdc-drawer-item">
-                            <a class="mdc-drawer-link" href="https://www.bootstrapdash.com/demo/material-admin-free/jquery/documentation/documentation.html" target="_blank">
-                                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">description</i>
-                                Documentation
-                            </a>
-                        </div>
-                    </nav>
-                </div>
-                <div class="profile-actions">
-                    <a href="javascript:;">Settings</a>
-                    <span class="divider"></span>
-                    <a href="javascript:;">Logout</a>
-                </div>
-            </div>
-        </aside>
-        <div class="main-wrapper mdc-drawer-app-content">
-            <header class="mdc-top-app-bar">
-                <div class="mdc-top-app-bar__row">
-                    <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-                        <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button sidebar-toggler">menu</button>
-                        <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon search-text-field d-none d-md-flex">
-                            <div class="mdc-notched-outline">
-                                <div class="mdc-notched-outline__leading"></div>
-                                <div class="mdc-notched-outline__trailing"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end mdc-top-app-bar__section-right">
-                        <div class="menu-button-container menu-profile d-none d-md-block">
-                            <button class="mdc-button mdc-menu-button">
-                                <span class="d-flex align-items-center">
-                                    <span class="figure">
-                                        <img src="~/MaterialDash-Admin-1.0.0/template/assets/images/faces/face1.jpg" alt="user" class="user">
-                                    </span>
-                                    <span class="user-name">Admin</span>
-                                </span>
-                            </button>
-                            <div class="mdc-menu mdc-menu-surface" tabindex="-1">
-                                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon-only">
-                                            <i class="mdi mdi-account-edit-outline text-primary"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">Edit profile</h6>
-                                        </div>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon-only">
-                                            <i class="mdi mdi-settings-outline text-primary"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">Logout</h6>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="divider d-none d-md-block"></div>
-                        <div class="menu-button-container d-none d-md-block">
-                            <button class="mdc-button mdc-menu-button">
-                                <i class="mdi mdi-settings"></i>
-                            </button>
-                            <div class="mdc-menu mdc-menu-surface" tabindex="-1">
-                                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon-only">
-                                            <i class="mdi mdi-alert-circle-outline text-primary"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">Settings</h6>
-                                        </div>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon-only">
-                                            <i class="mdi mdi-progress-download text-primary"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">Update</h6>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="menu-button-container">
-                            <button class="mdc-button mdc-menu-button">
-                                <i class="mdi mdi-bell"></i>
-                            </button>
-                            <div class="mdc-menu mdc-menu-surface" tabindex="-1">
-                                <h6 class="title"> <i class="mdi mdi-bell-outline mr-2 tx-16"></i> Notifications</h6>
-                                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon">
-                                            <i class="mdi mdi-email-outline"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">You received a new message</h6>
-                                            <small class="text-muted"> 6 min ago </small>
-                                        </div>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon">
-                                            <i class="mdi mdi-account-outline"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">New user registered</h6>
-                                            <small class="text-muted"> 15 min ago </small>
-                                        </div>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon">
-                                            <i class="mdi mdi-alert-circle-outline"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">System Alert</h6>
-                                            <small class="text-muted"> 2 days ago </small>
-                                        </div>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon">
-                                            <i class="mdi mdi-update"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">You have a new update</h6>
-                                            <small class="text-muted"> 3 days ago </small>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="menu-button-container">
-                            <button class="mdc-button mdc-menu-button">
-                                <i class="mdi mdi-email"></i>
-                                <span class="count-indicator">
-                                    <span class="count">3</span>
-                                </span>
-                            </button>
-                            <div class="mdc-menu mdc-menu-surface" tabindex="-1">
-                                <h6 class="title"><i class="mdi mdi-email-outline mr-2 tx-16"></i> Messages</h6>
-                                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail">
-                                            <img src="../../../assets/images/faces/face4.jpg" alt="user">
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">Mark send you a message</h6>
-                                            <small class="text-muted"> 1 Minutes ago </small>
-                                        </div>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail">
-                                            <img src="~/MaterialDash-Admin-1.0.0/template/assets/images/faces/face2.jpg" alt="user">
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">Cregh send you a message</h6>
-                                            <small class="text-muted"> 15 Minutes ago </small>
-                                        </div>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail">
-                                            <img src="~/MaterialDash-Admin-1.0.0/template/assets/images/faces/face3.jpg" alt="user">
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">Profile picture updated</h6>
-                                            <small class="text-muted"> 18 Minutes ago </small>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="menu-button-container d-none d-md-block">
-                            <button class="mdc-button mdc-menu-button">
-                                <i class="mdi mdi-arrow-down-bold-box"></i>
-                            </button>
-                            <div class="mdc-menu mdc-menu-surface" tabindex="-1">
-                                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon-only">
-                                            <i class="mdi mdi-lock-outline text-primary"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">Lock screen</h6>
-                                        </div>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <div class="item-thumbnail item-thumbnail-icon-only">
-                                            <i class="mdi mdi-logout-variant text-primary"></i>
-                                        </div>
-                                        <div class="item-content d-flex align-items-start flex-column justify-content-center">
-                                            <h6 class="item-subject font-weight-normal">Logout</h6>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+    <!-- header section start -->
+    @await Component.InvokeAsync("_DefaultNavBarPartials")
+    <!-- header section start -->
+    <!-- banner section start -->
+    @await Component.InvokeAsync("_DefaultBannerPartials")
+    <!-- banner section end -->
+    <!-- service section start -->
+    @await Component.InvokeAsync("_DefaultGradePartials")
+    <!-- service section end -->
+    <!-- about section start -->
+    @await Component.InvokeAsync("_DefaultAboutPartials")
+    <!-- about section end -->
+    <!-- price section start -->
+    @await Component.InvokeAsync("_DefaultPricePartials")
+    <!-- price section end -->
+    <!-- client section start -->
+    @await Component.InvokeAsync("_DefaultTestimonialPartials")
+    <!-- client section end -->
+    <!-- contact section start -->
+    <div class="contact_section">
+        <div class="container">
+            <h1 class="contact_taital">Bizimle İletişime Geçin</h1>
+            <div class="contact_section_2">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_main">
+                            <form id="contactForm" method="post" asp-action="CreateContact" asp-controller="Contact">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Adınız Soyadınız" asp-for="NameSurname" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Telefon Numaranız" asp-for="PhoneNumber" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="E-posta Adresiniz" asp-for="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Mesajınız" rows="5" asp-for="Message" required></textarea>
+                                </div>
+                                <button type="submit" class="modern-btn">Gönder <i class="arrow-icon">→</i></button>
+                            </form>
                         </div>
                     </div>
                 </div>
-            </header>
-            <!-- partial -->
-            <div class="page-wrapper mdc-toolbar-fixed-adjust">
-                <main class="content-wrapper">
-
-                </main>
-                <!-- partial:../../partials/_footer.html -->
-                <footer>
-                    <div class="mdc-layout-grid">
-                        <div class="mdc-layout-grid__inner">
-                            <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop">
-                                <span class="text-center text-sm-left d-block d-sm-inline-block tx-14">Copyright © <a href="https://www.bootstrapdash.com/" target="_blank">bootstrapdash.com </a>2020. Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></span>
-                            </div>
-                            <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop d-flex justify-content-end">
-                                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center tx-14">Free <a href="https://www.bootstrapdash.com/material-design-dashboard/" target="_blank"> material admin </a> dashboards from Bootstrapdash.com</span>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
             </div>
         </div>
     </div>
-    <script src="~/MaterialDash-Admin-1.0.0/template/assets/vendors/js/vendor.bundle.base.js"></script>
-    <script src="~/MaterialDash-Admin-1.0.0/template/assets/js/material.js"></script>
-    <script src="~/MaterialDash-Admin-1.0.0/template/assets/js/misc.js"></script>
+    <!-- contact section end -->
+    <!-- footer section start -->
+    @await Component.InvokeAsync("_DefaultFooterPartials")
+    <!-- footer section end -->
+    <!-- copyright section start -->
+    <div class="copyright_section">
+        <div class="container">
+            <p class="copyright_text">© @DateTime.Now.Year Tüm Hakları Saklıdır.| Edit By Abdullah KOÇDEMİR
+        </div>
+    </div>
+    @await Component.InvokeAsync("_DefaultScriptPartials")
+
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.3/sweetalert2.all.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                // Form validation
+                const formIsValid = form.checkValidity();
+                if (!formIsValid) {
+                    form.reportValidity();
+                    return;
+                }
+
+                // Show loading state
+                Swal.fire({
+                    title: 'Gönderiliyor...',
+                    text: 'Mesajınız işleniyor, lütfen bekleyin.',
+                    allowOutsideClick: false,
+                    allowEscapeKey: false,
+                    didOpen: () => {
+                        Swal.showLoading();
+                    }
+                });
+
+                // Get form data
+                const formData = new FormData(form);
+                const formDataObj = {};
+                formData.forEach((value, key) => {
+                    formDataObj[key] = value;
+                });
+
+                // Form submission
+                fetch(form.getAttribute('action'), {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'X-Requested-With': 'XMLHttpRequest'
+                    },
+                    body: JSON.stringify(formDataObj)
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Server responded with status: ' + response.status);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Response data:', data);
+
+                    if (data.success) {
+                        // Success message with redirect on button click
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Teşekkürler!',
+                            text: data.message || 'Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.',
+                            confirmButtonText: 'Tamam',
+                            confirmButtonColor: '#4f46e5',
+                            customClass: {
+                                popup: 'animated animate__fadeInUp'
+                            }
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                // Redirect to Default/Index when user clicks "Tamam"
+                                window.location.href = '/Default/Index';
+                            }
+                        });
+
+                        // Reset the form
+                        form.reset();
+                    } else {
+                        // Error with message from server
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops!',
+                            text: data.message || 'Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin.',
+                            confirmButtonText: 'Tekrar Dene',
+                            confirmButtonColor: '#4f46e5'
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+
+                    // Error message
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops!',
+                        text: 'Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin.',
+                        confirmButtonText: 'Tekrar Dene',
+                        confirmButtonColor: '#4f46e5'
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>
+
+<style>
+    .modern-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(45deg, #4f46e5, #6366f1);
+        color: white;
+        padding: 14px 30px;
+        border: none;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(79, 70, 229, 0.4);
+        position: relative;
+        overflow: hidden;
+    }
+
+        .modern-btn:hover {
+            background: linear-gradient(45deg, #4338ca, #4f46e5);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(79, 70, 229, 0.5);
+        }
+
+        .modern-btn:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 10px rgba(79, 70, 229, 0.4);
+        }
+
+        .modern-btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: all 0.5s ease;
+        }
+
+        .modern-btn:hover:before {
+            left: 100%;
+        }
+
+    .arrow-icon {
+        margin-left: 8px;
+        font-style: normal;
+        transition: transform 0.3s ease;
+    }
+
+    .modern-btn:hover .arrow-icon {
+        transform: translateX(4px);
+    }
+
+    /* SweetAlert2 özelleştirmeleri */
+    .swal2-popup {
+        border-radius: 15px;
+        padding: 2em;
+    }
+
+    .swal2-title {
+        color: #2d3748;
+        font-weight: 700;
+    }
+
+    .swal2-content {
+        color: #4a5568;
+    }
+
+    .swal2-styled.swal2-confirm {
+        background-color: #4f46e5;
+        border-radius: 50px;
+        padding: 12px 30px;
+        font-weight: 600;
+    }
+
+        .swal2-styled.swal2-confirm:focus {
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.3);
+        }
+
+    /* Animasyon sınıfları */
+    @@keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translate3d(0, 40px, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .animated {
+        animation-duration: 0.5s;
+        animation-fill-mode: both;
+    }
+
+    .animate__fadeInUp {
+        animation-name: fadeInUp;
+    }
+</style>

@@ -1,0 +1,61 @@
+﻿@model UpdateTestimonialDTO
+@{
+    ViewData["Title"] = "Testimonial Güncelleme";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+<div class="testimonial-update-container">
+    <div class="testimonial-card">
+        <div class="testimonial-card-header">
+            <h4>Kullanıcı Güncelleme</h4>
+        </div>
+        <div class="testimonial-card-body">
+            <form method="post" asp-action="Update">
+                <input type="hidden" asp-for="TestimonialID" />
+
+                <div class="form-group">
+                    <label for="NameSurname">Adı Soyadı</label>
+                    <input type="text" asp-for="NameSurname" class="form-control" placeholder="Adı ve Soyadı girin">
+                </div>
+
+                <div class="form-group">
+                    <label for="Title">Ünvan</label>
+                    <input type="text" asp-for="Title" class="form-control" placeholder="Ünvan girin">
+                </div>
+
+                <div class="form-group">
+                    <label for="Description">Açıklama</label>
+                    <textarea asp-for="Description" class="form-control" rows="4" placeholder="Açıklamanızı girin"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Mevcut Görsel</label>
+                    <div class="image-upload-container">
+                        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                        {
+                            <div class="current-image mb-2">
+                                <img src="@Model.ImageUrl" alt="Mevcut Görsel" class="preview-image rounded" style="max-height: 150px;" />
+                                <p class="image-caption mt-2 text-muted"><strong>Görsel Yolu:</strong> @Model.ImageUrl</p>
+                            </div>
+                        }
+                        else
+                        {
+                            <p class="text-muted">Görsel bulunamadı.</p>
+                        }
+                    </div>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="ImageUrl">Görsel Yolu (isteğe bağlı düzenleme)</label>
+                    <input type="text" asp-for="ImageUrl" class="form-control" placeholder="Yeni görsel yolunu girin">
+                </div>
+
+                <div class="form-actions mt-4">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i> Kaydet
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
