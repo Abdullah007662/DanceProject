@@ -17,15 +17,11 @@ C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\DanceWebUI.
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\DanceWebUI.pdb
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\EntityFramework.SqlServer.dll
-C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\EntityFramework.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\Google.Protobuf.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\Humanizer.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\K4os.Compression.LZ4.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\K4os.Hash.xxHash.dll
-C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\Microsoft.AspNet.Identity.Core.dll
-C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceWebUI\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll

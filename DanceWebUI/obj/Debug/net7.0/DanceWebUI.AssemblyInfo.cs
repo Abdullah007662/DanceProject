@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DanceWebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+938bedd1ffcfe37da8c28645609db71d86e287f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a1e716af3f9dcb0cd319f1caf4bf16cb1298604")]
 [assembly: System.Reflection.AssemblyProductAttribute("DanceWebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DanceWebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

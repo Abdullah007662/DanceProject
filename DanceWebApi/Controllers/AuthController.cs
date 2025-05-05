@@ -35,7 +35,7 @@ public class AuthController : ControllerBase
             FullName = dto.FullName
         };
 
-        var result = await _userManager.CreateAsync(user, dto.Password);
+        var result = await _userManager.CreateAsync(user, dto.Password!);
 
         if (result.Succeeded)
         {
