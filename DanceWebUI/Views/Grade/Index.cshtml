@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @await Component.InvokeAsync("_DefaultHeadPartials")
+
+</head>
+<body>
+    <!-- header section start -->
+    @await Component.InvokeAsync("_DefaultNavBarPartials")
+    <!-- header section start -->
+    <!-- banner section start -->
+    @await Component.InvokeAsync("_DefaultBannerPartials")
+
+    <br />
+    @await Component.InvokeAsync("_DefaultPricePartials")
+
+    @await Component.InvokeAsync("_DefaultFooterPartials")
+    <!-- footer section end -->
+    <!-- copyright section start -->
+    <div class="copyright_section">
+        <div class="container">
+            <p class="copyright_text">© @DateTime.Now.Year Tüm Hakları Saklıdır.| Edit By Abdullah KOÇDEMİR
+        </div>
+    </div>
+    @await Component.InvokeAsync("_DefaultScriptPartials")
+</body>
+</html>

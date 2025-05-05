@@ -22,14 +22,14 @@ namespace DanceWebUI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateContact(CreateContactDTO dto)
+        public async Task<IActionResult> CreateContact([FromBody] CreateContactDTO dto)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
                     // Log the DTO values for debugging
-                    _logger.LogInformation($"Processing contact: {dto.NameSurname}, {dto.Email}, {dto.PhoneNumber}");
+                    _logger.LogInformation($"Processing contact: {dto.NameSurname}, {dto.Email}, {dto.PhoneNumber},{dto.Message}");
 
                     var jsonData = JsonConvert.SerializeObject(dto);
                     var content = new StringContent(jsonData, Encoding.UTF8, "application/json");

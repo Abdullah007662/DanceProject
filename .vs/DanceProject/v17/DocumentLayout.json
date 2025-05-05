@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|c:\\users\\kcdmi\\source\\repos\\danceproject\\dancewebui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|solutionrelative:dancewebui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|c:\\users\\kcdmi\\source\\repos\\danceproject\\dancewebui\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|solutionrelative:dancewebui\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|c:\\users\\kcdmi\\source\\repos\\danceproject\\dancewebui\\controllers\\admingradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|solutionrelative:dancewebui\\controllers\\admingradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|c:\\users\\kcdmi\\source\\repos\\danceproject\\dancewebui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|solutionrelative:dancewebui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|c:\\users\\kcdmi\\source\\repos\\danceproject\\dancewebui\\viewcomponets\\defaultlayout\\_defaultcontactpartials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|solutionrelative:dancewebui\\viewcomponets\\defaultlayout\\_defaultcontactpartials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|c:\\users\\kcdmi\\source\\repos\\danceproject\\dancewebui\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|solutionrelative:dancewebui\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|c:\\users\\kcdmi\\source\\repos\\danceproject\\dancewebui\\controllers\\admincontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|solutionrelative:dancewebui\\controllers\\admincontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A79C9F-BD2D-4E06-BDF3-BFED63569008}|DanceWebApi\\DanceWebApi.csproj|c:\\users\\kcdmi\\source\\repos\\danceproject\\dancewebapi\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A79C9F-BD2D-4E06-BDF3-BFED63569008}|DanceWebApi\\DanceWebApi.csproj|solutionrelative:dancewebapi\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|c:\\users\\kcdmi\\source\\repos\\danceproject\\dancewebui\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33798B18-235C-45CD-B7F5-C12F19C71D06}|DanceWebUI\\DanceWebUI.csproj|solutionrelative:dancewebui\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 255,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,81 +46,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "DanceWebUI\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "DanceWebUI\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAAGQBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T01:37:46.643Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "DanceWebUI\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "DanceWebUI\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAiwDwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T16:00:04.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminContactController.cs",
-              "DocumentMoniker": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\AdminContactController.cs",
-              "RelativeDocumentMoniker": "DanceWebUI\\Controllers\\AdminContactController.cs",
-              "ToolTip": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\AdminContactController.cs",
-              "RelativeToolTip": "DanceWebUI\\Controllers\\AdminContactController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:54:43.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContactsController.cs",
-              "DocumentMoniker": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\Controllers\\ContactsController.cs",
-              "RelativeDocumentMoniker": "DanceWebApi\\Controllers\\ContactsController.cs",
-              "ToolTip": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebApi\\Controllers\\ContactsController.cs",
-              "RelativeToolTip": "DanceWebApi\\Controllers\\ContactsController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswCYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:50:40.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Views\\Default\\Index.cshtml",
               "RelativeDocumentMoniker": "DanceWebUI\\Views\\Default\\Index.cshtml",
               "ToolTip": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Views\\Default\\Index.cshtml",
               "RelativeToolTip": "DanceWebUI\\Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAAAABAAAAAAAAAAAiwAMBAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAFYBAAAAAAAAAAAUwGQBAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T15:49:30.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T01:36:31.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminGradeController.cs",
-              "DocumentMoniker": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\AdminGradeController.cs",
-              "RelativeDocumentMoniker": "DanceWebUI\\Controllers\\AdminGradeController.cs",
-              "ToolTip": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\AdminGradeController.cs",
-              "RelativeToolTip": "DanceWebUI\\Controllers\\AdminGradeController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "DanceWebUI\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "DanceWebUI\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:47:52.396Z",
+              "WhenOpened": "2025-05-05T01:33:28.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_DefaultContactPartials.cs",
-              "DocumentMoniker": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\ViewComponets\\DefaultLayout\\_DefaultContactPartials.cs",
-              "RelativeDocumentMoniker": "DanceWebUI\\ViewComponets\\DefaultLayout\\_DefaultContactPartials.cs",
-              "ToolTip": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\ViewComponets\\DefaultLayout\\_DefaultContactPartials.cs",
-              "RelativeToolTip": "DanceWebUI\\ViewComponets\\DefaultLayout\\_DefaultContactPartials.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "DanceWebUI\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\kcdmi\\source\\repos\\DanceProject\\DanceWebUI\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "DanceWebUI\\Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:47:29.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T01:33:20.773Z"
             }
           ]
         },

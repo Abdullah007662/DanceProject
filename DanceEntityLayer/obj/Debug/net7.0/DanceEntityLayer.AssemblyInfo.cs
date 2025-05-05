@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DanceEntityLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ddda237483283b0f57248d1af005a8212e6aea9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+938bedd1ffcfe37da8c28645609db71d86e287f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DanceEntityLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DanceEntityLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

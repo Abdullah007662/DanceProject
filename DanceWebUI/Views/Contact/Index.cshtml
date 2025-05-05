@@ -1,0 +1,382 @@
+﻿@model CreateContactDTO
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @await Component.InvokeAsync("_DefaultHeadPartials")
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+        }
+
+        .contact_section {
+            padding: 80px 0;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .contact_taital {
+            color: #2d3748;
+            font-size: 42px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+            .contact_taital:after {
+                content: "";
+                display: block;
+                width: 80px;
+                height: 4px;
+                background: #4f46e5;
+                margin: 15px auto 0;
+                border-radius: 2px;
+            }
+
+        .contact_main {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+            padding: 40px;
+            transition: transform 0.3s ease;
+        }
+
+            .contact_main:hover {
+                transform: translateY(-5px);
+            }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 16px 20px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+            background-color: #f8fafc;
+            transition: all 0.3s ease;
+        }
+
+            .form-control:focus {
+                outline: none;
+                border-color: #4f46e5;
+                box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+                background-color: #fff;
+            }
+
+            .form-control::placeholder {
+                color: #94a3b8;
+            }
+
+        textarea.form-control {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            display: inline-block;
+            background-color: #4f46e5;
+            color: white;
+            padding: 14px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+        }
+
+            .submit-btn:hover {
+                background-color: #4338ca;
+                transform: translateY(-2px);
+                box-shadow: 0 6px 15px rgba(79, 70, 229, 0.4);
+            }
+
+            .submit-btn:active {
+                transform: translateY(1px);
+            }
+
+        @@media (max-width: 768px) {
+            .contact_taital {
+                font-size: 32px;
+            }
+
+            .contact_main {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.3/sweetalert2.min.css">
+
+</head>
+<body>
+    <!-- header section start -->
+    @await Component.InvokeAsync("_DefaultNavBarPartials")
+    <!-- header section start -->
+    <!-- banner section start -->
+    @await Component.InvokeAsync("_DefaultBannerPartials")
+
+    <br />
+    <div class="contact_section">
+        <div class="container">
+            <h1 class="contact_taital">Bizimle İletişime Geçin</h1>
+            <div class="contact_section_2">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_main">
+                            <form id="contactForm" method="post" asp-action="CreateContact" asp-controller="Contact">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Adınız Soyadınız" asp-for="NameSurname" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Telefon Numaranız" asp-for="PhoneNumber" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="E-posta Adresiniz" asp-for="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Mesajınız" rows="5" asp-for="Message" required></textarea>
+                                </div>
+                                <button type="submit" class="modern-btn">Gönder <i class="arrow-icon">→</i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @await Component.InvokeAsync("_DefaultFooterPartials")
+    <!-- footer section end -->
+    <!-- copyright section start -->
+    <div class="copyright_section">
+        <div class="container">
+            <p class="copyright_text">© @DateTime.Now.Year Tüm Hakları Saklıdır.| Edit By Abdullah KOÇDEMİR
+        </div>
+    </div>
+    @await Component.InvokeAsync("_DefaultScriptPartials")
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.3/sweetalert2.all.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('contactForm');
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Form validation
+                const formIsValid = form.checkValidity();
+                if (!formIsValid) {
+                    form.reportValidity();
+                    return;
+                }
+
+                // Show loading state
+                Swal.fire({
+                    title: 'Gönderiliyor...',
+                    text: 'Mesajınız işleniyor, lütfen bekleyin.',
+                    allowOutsideClick: false,
+                    allowEscapeKey: false,
+                    didOpen: () => {
+                        Swal.showLoading();
+                    }
+                });
+
+                // Get form data
+                const formData = new FormData(form);
+                const formDataObj = {};
+                formData.forEach((value, key) => {
+                    formDataObj[key] = value;
+                });
+
+                // Form submission
+                fetch(form.getAttribute('action'), {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'X-Requested-With': 'XMLHttpRequest'
+                    },
+                    body: JSON.stringify(formDataObj)
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Server responded with status: ' + response.status);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log('Response data:', data);
+
+                        if (data.success) {
+                            // Success message with redirect on button click
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Teşekkürler!',
+                                text: data.message || 'Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.',
+                                confirmButtonText: 'Tamam',
+                                confirmButtonColor: '#4f46e5',
+                                customClass: {
+                                    popup: 'animated animate__fadeInUp'
+                                }
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    // Redirect to Default/Index when user clicks "Tamam"
+                                    window.location.href = '/Default/Index';
+                                }
+                            });
+
+                            // Reset the form
+                            form.reset();
+                        } else {
+                            // Error with message from server
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Oops!',
+                                text: data.message || 'Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin.',
+                                confirmButtonText: 'Tekrar Dene',
+                                confirmButtonColor: '#4f46e5'
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+
+                        // Error message
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops!',
+                            text: 'Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin.',
+                            confirmButtonText: 'Tekrar Dene',
+                            confirmButtonColor: '#4f46e5'
+                        });
+                    });
+            });
+        });
+    </script>
+</body>
+</html>
+<style>
+    .modern-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(45deg, #4f46e5, #6366f1);
+        color: white;
+        padding: 14px 30px;
+        border: none;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(79, 70, 229, 0.4);
+        position: relative;
+        overflow: hidden;
+    }
+
+        .modern-btn:hover {
+            background: linear-gradient(45deg, #4338ca, #4f46e5);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(79, 70, 229, 0.5);
+        }
+
+        .modern-btn:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 10px rgba(79, 70, 229, 0.4);
+        }
+
+        .modern-btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: all 0.5s ease;
+        }
+
+        .modern-btn:hover:before {
+            left: 100%;
+        }
+
+    .arrow-icon {
+        margin-left: 8px;
+        font-style: normal;
+        transition: transform 0.3s ease;
+    }
+
+    .modern-btn:hover .arrow-icon {
+        transform: translateX(4px);
+    }
+
+    /* SweetAlert2 özelleştirmeleri */
+    .swal2-popup {
+        border-radius: 15px;
+        padding: 2em;
+    }
+
+    .swal2-title {
+        color: #2d3748;
+        font-weight: 700;
+    }
+
+    .swal2-content {
+        color: #4a5568;
+    }
+
+    .swal2-styled.swal2-confirm {
+        background-color: #4f46e5;
+        border-radius: 50px;
+        padding: 12px 30px;
+        font-weight: 600;
+    }
+
+        .swal2-styled.swal2-confirm:focus {
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.3);
+        }
+
+    /* Animasyon sınıfları */
+    @@keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translate3d(0, 40px, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .animated {
+        animation-duration: 0.5s;
+        animation-fill-mode: both;
+    }
+
+    .animate__fadeInUp {
+        animation-name: fadeInUp;
+    }
+</style>

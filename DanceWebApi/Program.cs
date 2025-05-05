@@ -1,4 +1,4 @@
-using DanceDataAccessLayer.Concrete;
+ï»¿using DanceDataAccessLayer.Concrete;
 using DanceBusinessLayer.Conteiner;
 using DanceWebApi.Mapping;
 using Microsoft.EntityFrameworkCore;
@@ -6,6 +6,10 @@ using System;
 using System.Text.Json.Serialization;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.AspNetCore.Builder;
+using DanceEntityLayer.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,12 +18,35 @@ var builder = WebApplication.CreateBuilder(args);
 // Program.cs
 builder.Services.AddDbContext<DanceContext>(options =>
     options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")!));
+builder.Services.AddIdentity<AppUser, AppRole>()
+    .AddEntityFrameworkStores<DanceContext>()
+    .AddDefaultTokenProviders();
+
+
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = "yourdomain.com",
+            ValidAudience = "yourdomain.com",
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSuperSecretKey123!"))
+        };
+    });
+builder.Services.AddAuthorization();
+
+builder.Services.AddControllers();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", builder =>
-        builder.AllowAnyOrigin()  // Tüm origin'lere izin verir
-               .AllowAnyMethod()  // Tüm HTTP yöntemlerine izin verir (GET, POST, PUT, DELETE vb.)
-               .AllowAnyHeader()); // Tüm header'lara izin verir
+        builder.AllowAnyOrigin()  // TÃ¼m origin'lere izin verir
+               .AllowAnyMethod()  // TÃ¼m HTTP yÃ¶ntemlerine izin verir (GET, POST, PUT, DELETE vb.)
+               .AllowAnyHeader()); // TÃ¼m header'lara izin verir
 });
 
 builder.Services.AddControllers();
@@ -42,9 +69,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles(); // bu satýr var mý, kontrol et
+app.UseStaticFiles(); // bu satÄ±r var mÄ±, kontrol et
 
-// wwwroot içindeki dosyalarý eriþilebilir yapmak için
+// wwwroot iÃ§indeki dosyalarÄ± eriÅŸilebilir yapmak iÃ§in
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
@@ -53,6 +80,7 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = ""
 });
 app.UseCors("AllowAll");
+app.UseAuthentication(); // â¬… BU SATIRI EKLE
 
 app.UseAuthorization();
 

@@ -156,19 +156,21 @@
                         <div class="contact_main">
                             <form id="contactForm" method="post" asp-action="CreateContact" asp-controller="Contact">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Adınız Soyadınız" asp-for="NameSurname" required>
+                                    <input type="text" name="NameSurname" class="form-control" placeholder="Adınız Soyadınız" asp-for="NameSurname" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Telefon Numaranız" asp-for="PhoneNumber" required>
+                                    <input type="tel" name="PhoneNumber" class="form-control" placeholder="Telefon Numaranız" asp-for="PhoneNumber" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="E-posta Adresiniz" asp-for="Email" required>
+                                    <input type="email" name="Email" class="form-control" placeholder="E-posta Adresiniz" asp-for="Email" required>
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Mesajınız" rows="5" asp-for="Message" required></textarea>
+                                    <textarea name="Message" class="form-control" placeholder="Mesajınız" rows="5" asp-for="Message" required></textarea>
                                 </div>
                                 <button type="submit" class="modern-btn">Gönder <i class="arrow-icon">→</i></button>
                             </form>
+
+
                         </div>
                     </div>
                 </div>
@@ -191,10 +193,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.3/sweetalert2.all.min.js"></script>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const form = document.getElementById('contactForm');
 
-            form.addEventListener('submit', function(e) {
+            form.addEventListener('submit', function (e) {
                 e.preventDefault();
 
                 // Form validation
@@ -232,41 +234,126 @@
                     },
                     body: JSON.stringify(formDataObj)
                 })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Server responded with status: ' + response.status);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log('Response data:', data);
+
+                        if (data.success) {
+                            // Success message with redirect on button click
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Teşekkürler!',
+                                text: data.message || 'Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.',
+                                confirmButtonText: 'Tamam',
+                                confirmButtonColor: '#4f46e5',
+                                customClass: {
+                                    popup: 'animated animate__fadeInUp'
+                                }
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    // Redirect to Default/Index when user clicks "Tamam"
+                                    window.location.href = '/Default/Index';
+                                }
+                            });
+
+                            // Reset the form
+                            form.reset();
+                        } else {
+                            // Error with message from server
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Oops!',
+                                text: data.message || 'Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin.',
+                                confirmButtonText: 'Tekrar Dene',
+                                confirmButtonColor: '#4f46e5'
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+
+                        // Error message
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops!',
+                            text: 'Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin.',
+                            confirmButtonText: 'Tekrar Dene',
+                            confirmButtonColor: '#4f46e5'
+                        });
+                    });
+            });
+        });
+    </script>
+</body>
+</html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('contactForm');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            if (!form.checkValidity()) {
+                form.reportValidity();
+                return;
+            }
+
+            Swal.fire({
+                title: 'Gönderiliyor...',
+                text: 'Mesajınız işleniyor, lütfen bekleyin.',
+                allowOutsideClick: false,
+                allowEscapeKey: false,
+                didOpen: () => {
+                    Swal.showLoading();
+                }
+            });
+
+            // Form verilerini manuel olarak JSON nesnesine çeviriyoruz
+            const formDataObj = {
+                NameSurname: document.querySelector('[name="NameSurname"]').value,
+                PhoneNumber: document.querySelector('[name="PhoneNumber"]').value,
+                Email: document.querySelector('[name="Email"]').value,
+                Message: document.querySelector('[name="Message"]').value
+            };
+
+            fetch(form.getAttribute('action'), {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(formDataObj)
+            })
                 .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Server responded with status: ' + response.status);
-                    }
+                    if (!response.ok) throw new Error('HTTP error ' + response.status);
                     return response.json();
                 })
                 .then(data => {
-                    console.log('Response data:', data);
-
                     if (data.success) {
-                        // Success message with redirect on button click
                         Swal.fire({
                             icon: 'success',
                             title: 'Teşekkürler!',
-                            text: data.message || 'Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.',
+                            text: data.message || 'Mesajınız başarıyla gönderildi.',
                             confirmButtonText: 'Tamam',
                             confirmButtonColor: '#4f46e5',
                             customClass: {
                                 popup: 'animated animate__fadeInUp'
                             }
-                        }).then((result) => {
-                            if (result.isConfirmed) {
-                                // Redirect to Default/Index when user clicks "Tamam"
-                                window.location.href = '/Default/Index';
-                            }
+                        }).then(() => {
+                            window.location.href = '/Default/Index';
                         });
-
-                        // Reset the form
                         form.reset();
                     } else {
-                        // Error with message from server
                         Swal.fire({
                             icon: 'error',
                             title: 'Oops!',
-                            text: data.message || 'Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin.',
+                            text: data.message || 'Mesajınız gönderilemedi.',
                             confirmButtonText: 'Tekrar Dene',
                             confirmButtonColor: '#4f46e5'
                         });
@@ -274,122 +361,15 @@
                 })
                 .catch(error => {
                     console.error('Error:', error);
-
-                    // Error message
                     Swal.fire({
                         icon: 'error',
                         title: 'Oops!',
-                        text: 'Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin.',
+                        text: 'Bir hata oluştu. Lütfen tekrar deneyin.',
                         confirmButtonText: 'Tekrar Dene',
                         confirmButtonColor: '#4f46e5'
                     });
                 });
-            });
         });
-    </script>
-</body>
-</html>
+    });
+</script>
 
-<style>
-    .modern-btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        background: linear-gradient(45deg, #4f46e5, #6366f1);
-        color: white;
-        padding: 14px 30px;
-        border: none;
-        border-radius: 50px;
-        font-size: 16px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 15px rgba(79, 70, 229, 0.4);
-        position: relative;
-        overflow: hidden;
-    }
-
-        .modern-btn:hover {
-            background: linear-gradient(45deg, #4338ca, #4f46e5);
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(79, 70, 229, 0.5);
-        }
-
-        .modern-btn:active {
-            transform: translateY(1px);
-            box-shadow: 0 2px 10px rgba(79, 70, 229, 0.4);
-        }
-
-        .modern-btn:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-            transition: all 0.5s ease;
-        }
-
-        .modern-btn:hover:before {
-            left: 100%;
-        }
-
-    .arrow-icon {
-        margin-left: 8px;
-        font-style: normal;
-        transition: transform 0.3s ease;
-    }
-
-    .modern-btn:hover .arrow-icon {
-        transform: translateX(4px);
-    }
-
-    /* SweetAlert2 özelleştirmeleri */
-    .swal2-popup {
-        border-radius: 15px;
-        padding: 2em;
-    }
-
-    .swal2-title {
-        color: #2d3748;
-        font-weight: 700;
-    }
-
-    .swal2-content {
-        color: #4a5568;
-    }
-
-    .swal2-styled.swal2-confirm {
-        background-color: #4f46e5;
-        border-radius: 50px;
-        padding: 12px 30px;
-        font-weight: 600;
-    }
-
-        .swal2-styled.swal2-confirm:focus {
-            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.3);
-        }
-
-    /* Animasyon sınıfları */
-    @@keyframes fadeInUp {
-        from {
-            opacity: 0;
-            transform: translate3d(0, 40px, 0);
-        }
-
-        to {
-            opacity: 1;
-            transform: translate3d(0, 0, 0);
-        }
-    }
-
-    .animated {
-        animation-duration: 0.5s;
-        animation-fill-mode: both;
-    }
-
-    .animate__fadeInUp {
-        animation-name: fadeInUp;
-    }
-</style>

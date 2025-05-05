@@ -1,12 +1,13 @@
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\bin\Debug\net7.0\DanceEntityLayer.deps.json
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\bin\Debug\net7.0\DanceEntityLayer.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\bin\Debug\net7.0\DanceEntityLayer.pdb
+C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.csproj.AssemblyReference.cache
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.AssemblyInfoInputs.cache
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.AssemblyInfo.cs
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.sourcelink.json
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\refint\DanceEntityLayer.dll
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.pdb
 C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\ref\DanceEntityLayer.dll
-C:\Users\kcdmi\source\repos\DanceProject\DanceEntityLayer\obj\Debug\net7.0\DanceEntityLayer.sourcelink.json
